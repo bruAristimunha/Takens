@@ -1,4 +1,4 @@
-module Takens
+module TakensEEG
 
 using DelayEmbeddings: selfmutualinfo, estimate_delay, delay_afnn, Dataset, mdop_embedding
 using Peaks: argmaxima, argminima
